@@ -18,5 +18,14 @@
   display: none;
 }
 
+.gsc-comments {
+  flex-direction: column-reverse;
+}
+
+.gsc-timeline {
+  flex-direction: row;
+}
+
+
 
 
