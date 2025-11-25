@@ -1,4 +1,3 @@
-
 .gsc-reactions {
   display: none;
 }
@@ -36,9 +35,13 @@
 
 .gsc-comment {
   height: auto;
-  width: 400px;
+  width: 315px;
 }
-
+@media (min-width: 400px) {
+  .gsc-comment {
+    width: 400px;
+  }
+}
 .gsc-comment-content {
   overflow-y: auto;
   max-height: 386px;
